@@ -1,4 +1,4 @@
-package june;
+package June1to20;
 
 import java.util.Scanner;
 

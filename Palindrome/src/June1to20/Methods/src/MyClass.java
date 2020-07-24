@@ -1,4 +1,4 @@
-package june.Methods.src;
+package June1to20.Methods.src;
 
 import java.util.Scanner;
 
