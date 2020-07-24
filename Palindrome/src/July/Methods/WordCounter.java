@@ -1,4 +1,4 @@
-package July;
+package July.Methods;
 /*5. Write a Java method to count all words in a string. Go to the editor
         Test Data:
         Input the string: The quick brown fox jumps over the lazy dog.
@@ -14,7 +14,17 @@ public class WordCounter {
         Scanner in = new Scanner(System.in);
         System.out.print("Input the string: ");
         String str = in.nextLine();
+        wordCountUsingSplit(str);
+    }
 
+    public static String wordCountUsingSplit(String str) {
 
+        String[] wordArray = str.split("\\s+");
+        int wordCount = wordArray.length;
+
+        System.out.println("Word count is = " + wordCount);
+
+        return str;
     }
 }
+
